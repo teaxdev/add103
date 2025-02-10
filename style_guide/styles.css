@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: ivory
+}
+
+img {
+    width: 40%;
+    height: auto;
+    /* use auto as to not skew the image. */
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    margin-left: 35px;
+}
