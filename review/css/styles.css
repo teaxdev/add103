@@ -1,11 +1,30 @@
 /* Set colors for the page */
 body{
-    background-color: white;
+    background-color: rgb(214, 214, 214);
     color: black; /* this is the font color*/
+    text-align: center;
 }
 
 /* create styles for the h1 tag */
 
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(223, 86, 86);
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(223, 86, 86);
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+}
+
+p{
+    font-size: large;
+}
 /* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line
 
 h1{
@@ -25,7 +44,7 @@ h1{
 /* create styles for the p tag */
 
 img{
-    width: 60%;
+    width: 30%;
     display: block;
     margin: 10px auto; 
     /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
