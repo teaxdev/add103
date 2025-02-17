@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Images</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Using Images</h1>
+    </header>
+    <div id="background">
+      <h2>Background Image</h2>
+    </div>
+    <div id="img-map">
+      <h2>Image Map</h2>
+      <img src="images/workplace.jpg" usemap="#image-map">
+      
+      <map name="image-map">
+        <area target="" alt="headphones" title="headphones" href="#headphones" coords="102,312,103" shape="circle">
+        <area target="" alt="keyboard" title="keyboard" href="#keyboard" coords="222,269,541,405" shape="rect">
+        <area target="" alt="mouse" title="mouse" href="#mouse" coords="561,277,624,405" shape="rect">
+        <area target="" alt="hard-drive" title="hard-drive" href="#hard-drive" coords="478,12,625,247" shape="rect">
+      </map>
+    </div>
+    <div id="float-left">
+      <h2>Float Left</h2>
+      <img src="images/dogs.jpg" alt="dogs">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, natus! Aperiam modi fugiat iusto, quaerat, vitae nam unde pariatur cum quasi illo asperiores impedit ut autem similique quos officia voluptates?</p>
+    </div>
+    <div id="float-right">
+      <h2>Float Right</h2>
+      <img src="images/cat.jpg" alt="kitty cat">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, natus! Aperiam modi fugiat iusto, quaerat, vitae nam
+        unde pariatur cum quasi illo asperiores impedit ut autem similique quos officia voluptates?</p>
+      </div>
+    </div>
+    <div id="picture-tag">
+      <h2>Picture Tag</h2>
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/cat.jpg">
+        <source media="(min-width: 465px)" srcset="images/tree.jpg">
+        <img src="images/dogs.jpg" style="width:auto;">
+      </picture>
+    </div>
+    <div id="linked-image">
+      <h2>Linked Image</h2>
+      <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt="cat">
+    </div>
+    <div id="img-as-link">
+      <h2>Image As Link</h2>
+      <a href="https://www.trekbikes.com/us/en_US/">
+        <img src="images/bicycle.jpg" alt="trek">
+      </a>
+    </div>
+
+    <div id="headphones">
+      <h2>Headphones</h2>
+    </div>
+    
+    <div id="keyboard">
+      <h2>Keyboard</h2>
+    </div>
+    
+    <div id="mouse">
+      <h2>Mouse</h2>
+    </div>
+    <div id="hard-drive">
+      <h2>Hard Drive</h2>
+
+  </body>
+</html>
