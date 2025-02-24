@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-size: larger;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a .top{
+    text-decoration: none;
+    background-color: darkslateblue;
+    border: 2px solid darkslateblue;
+    padding: 10px 20px;
+    margin-left: 15ps;
+    color: azure;
+    border-radius: 20px;
+}
+
+div {
+    min-height: 250px;
+}
+
+nav a:hover,
+.top:hover {
+    color: darkslateblue;
+    background: azure;
+}
+
+a:hover {
+    color: azure;
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: azure;
+}
