@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(57, 63, 68);
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin-left: 15px;
+    background: burlywood;
+    color: beige;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
