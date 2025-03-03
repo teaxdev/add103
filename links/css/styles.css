@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     font-size: larger;
     color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,6 +7,15 @@ body {
 
 nav {
     text-align: center;
+}
+nav a {
+    font-size: larger;
+    padding: 10px 20px;
+    background-color: rgb(83, 86, 90);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid rgb(83, 86, 90);
 }
 
 nav a .top{
@@ -38,4 +47,15 @@ h1,
 h2 {
     text-align: center;
     color: azure;
+}
+
+h2 {
+    background-color: rgb(83, 86, 90);
+    border-radius: 20px;
+    border: 2px solid rgb(83, 86, 90);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
 }
