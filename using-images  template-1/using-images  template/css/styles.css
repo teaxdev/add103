@@ -40,6 +40,10 @@ h2 {
 
 /* Placeholder for the background styling, add your specific styles here */
 #background {
+    background-image: url("../images/aurora-borealis.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     /* Add background-specific styles here */
 }
 
