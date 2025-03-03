@@ -11,3 +11,12 @@ ol li {
 ul {
     list-style-type: lower-greek;
 }
+dt {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+dd {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: rgb(105, 66, 34);
+}
