@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(57, 63, 68);
-    color: red;
+    background-color: ivory;
+    color: rgb(57, 63, 68);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,14 +11,24 @@ nav {
 nav a {
     margin-left: 15px;
     background: burlywood;
-    color: beige;
+    color: rgb(79, 79, 43);
     padding: 10px 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(109, 102, 40);
     border-radius: 15px;
+    text-decoration: none;
+}
+
+nav div {
+    background: rgb(241, 218, 188);
+    color: rgb(79, 79, 43);
+    padding: 25px 20px;
+    border: 2px solid rgb(109, 102, 40);
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 h1, h2 {
-    color: aliceblue;
+    color: rgb(50, 43, 13);
     text-align: center;
 }
 
