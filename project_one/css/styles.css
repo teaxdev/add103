@@ -30,6 +30,10 @@ nav div {
     margin-right: 200px;
 }
 
+ul {
+    list-style-type: circle;
+}
+
 h1, h2 {
     color: rgb(50, 43, 13);
     text-align: center;
