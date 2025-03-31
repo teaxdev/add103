@@ -60,3 +60,22 @@ footer {
     font-weight: bold;
     font-size: xx-large;
 }
+
+#p1 {
+    font-weight: bold;
+    color:rgb(114, 15, 15);
+    padding: 30px;
+}
+
+#p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    background-color: aqua;
+}
+
+#p3 {
+    line-height: 2.5;
+    text-align: center;
+    color: rgb(218, 0, 145);
+    background-color: rgb(125, 218, 125);
+}
