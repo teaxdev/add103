@@ -7,6 +7,45 @@ h1 {
     font-size: 60px;
 }
 
-div {
-    border-radius: 10px 34px;
+.one {
+    background-color: aqua;
+    border-radius: 10px 40px;
+}
+
+p {
+    padding: 20px
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: space-around;
+}
+
+#two {
+    transform: scale(3) rotate(4deg) skewX(54deg);
+}
+
+#tree {
+     outline: 30px groove #60FF1C;
+        outline-offset: 54px;
+}
+
+#four {
+    text-shadow: 20px 40px 4px #FF3C2E;
+}
+
+#five {
+    background-color: rgb(216, 216, 84);
+    box-shadow: 4px 22px 3px 5px #77FF29;
+}
+
+#last {
+    background-color: aqua;
+    border-radius: 10px 40px;
+    column-count: 3;
+    column-gap: 444px;
 }
