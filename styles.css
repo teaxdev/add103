@@ -1,12 +1,12 @@
 :root {
-    --dark_primary: #00796b;
-    --light_primary: #b2dfdb;
-    --primary_color: #009688;
+    --dark_primary: #0288D1;
+    --light_primary: #b3e5fc;
+    --primary_color: #03a9f4;
     --light_text: #ffffff;
-    --accent_color: #ffeb3b;
+    --accent_color: #ff5252;
     --primary_text: #212121;
-    --secondary_text: #b0b3a5;
-    --divider: #e5e6e2;
+    --secondary_text: #757575;
+    --divider: #bdbdbd;
     --main_text: "Roboto", sans-serif;
     --header_text: "Indie Flower", cursive;
 }
