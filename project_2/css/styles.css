@@ -1,3 +1,9 @@
+:root {
+    --blue: #303f9f;
+    --gold: #ffc107;
+    --white: #ffffff;
+}
+
 body {
     font-size: 18px;
     font-family: "Ubuntu", sans-serif;
@@ -14,12 +20,12 @@ p {
 #binder {
     width: 30%;
     padding: 10px;
-    background-color: #ffc107;
+    background-color: var(--gold);
     border-radius: 15px;
 }
 .card {
     width: 300px;
-    background-color: #ffc107;
+    background-color: var(--gold);
     padding: 2px;
     border-radius: 15px;
 }
@@ -27,18 +33,18 @@ p {
 #griffo {
     padding: 10px;
     border-radius: 10px;
-    background-color: #ffc107;
+    background-color: var(--gold);
 }
 
 figure {
     padding: 10px;
     text-align: center;
-    background-color: #303F9F;
+    background-color: var(--blue);
     border-radius: 15px;
 }
 
 figcaption {
-    background-color: #ffffff;
+    background-color: var(--white);
     padding: 5px;
     border-radius: 10px;
     margin-left: 20px;
@@ -80,20 +86,20 @@ nav {
 }
 
 #navbar {
-    background-color: #303f9f;
+    background-color: var(--blue);
     padding: 20px;
     border-radius: 15px;
-    border: #ffc107 dashed 3px;
+    border: var(--gold) dashed 3px;
 }
 
 img {
     margin: 20px auto;
     display: block;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .img1 {
-    background-color: #ffc107;
+    background-color: var(--gold);
     padding: 10px;
     border-radius: 10px;
     height: 300px;
