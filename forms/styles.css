@@ -1,0 +1,25 @@
+:root {
+    --red: #a41614;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--red);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: rgb(214, 214, 36);
+    margin-top: 20px;
+}
+
+#forms {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
