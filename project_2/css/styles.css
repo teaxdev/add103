@@ -81,6 +81,11 @@ nav a {
     margin: 10px;
 }
 
+a:hover {
+    background-color: var(--gold);
+    border: var(--white) dashed 1px;
+}
+
 nav {
     text-align: center;
 }
