@@ -1,0 +1,28 @@
+:root {
+    --deepblue: #043362;
+    --blue: #3b6d91;
+    --lightblue: #eff5fb;
+    --green: #5d8731;
+    --yellow: #deff0a;
+}
+
+body {
+    font-family: "Special Gothic", sans-serif;
+}
+
+p {
+    font-family: "Teko", sans-serif;
+}
+
+.special-gothic-regular {
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.teko {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
