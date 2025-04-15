@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 :root {
     --deepblue: #043362;
     --blue: #3b6d91;
@@ -8,10 +57,41 @@
 
 body {
     font-family: "Special Gothic", sans-serif;
+    background-color: var(--lightblue);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    padding: 30px;
+    background-color: var(--deepblue);
+    text-align: center;
+}
+
+nav a {
+    background-color: var(--lightblue);
+    padding: 10px;
+    text-decoration: none;
+    border: var(--blue) solid 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: var(--blue);
+    color: var(--lightblue);
+    border: var(--lightblue) solid 3px;
+    border-radius: 10px;
 }
 
 p {
     font-family: "Teko", sans-serif;
+    font-size: 30px;
+    margin: 10px;
 }
 
 .special-gothic-regular {
@@ -23,6 +103,22 @@ p {
 .teko {
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
+}
+
+#container {
+    background-color: var(--blue);
+}
+
+img {
+    padding: 10px;
+    background-color: var(--green);
+    margin: 20px;
+    border: var(--yellow) solid 2px;
+}
+
+#imgcontainer {
+    justify-content: center;
+    display: flex;
 }
