@@ -20,6 +20,7 @@ input {
     border-radius: 10px;
 }
 
-button {
-    margin-top: 20px;
+input[type=submit] {
+    margin: 20px;
+    padding: 5px;
 }
