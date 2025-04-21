@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-fluid {
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px;  
+}
+
+img {
+    max-width: 500px;
+    padding: 10px;
+    background-color: black;
+}
