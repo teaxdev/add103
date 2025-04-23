@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.btn-primary {
+    margin: 15px;
+}
+
+.container {
+    background-color: red;
+    border-radius: 15px;
+}
