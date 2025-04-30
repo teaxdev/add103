@@ -52,3 +52,21 @@ nav-item {
     padding: 10px;
     background-color: brown;
 }
+
+#custom {
+    background-color: blueviolet;
+}
+
+.custom2 {
+    background-color: blue;
+}
+
+#custom3 {
+    border-radius: 30px;
+    color: black;
+}
+
+.custom4 {
+    background-color: aquamarine;
+    text-align: right;
+}
