@@ -40,54 +40,106 @@
             <a class="nav-link" href="ninja.html">Satoru Umezawa</a>
         </li>
     </nav>
-    <h1>Wilhelt's Zombies</h1>
-    <h2>Dimir Zombies!</h2>
-    <figure>
-        <img src="../images/willy.jpg" class="card" alt="collection">
-        <figcaption>Wilhelt, The Rotcleaver</figcaption>
-    </figure>
+    <div class="container-fluid">
+        <h1>Wilhelt's Zombies</h1>
+        <h2>Dimir Zombies!</h2>
+        <figure>
+            <img src="../images/willy.jpg" class="card" alt="collection">
+            <figcaption>Wilhelt, The Rotcleaver</figcaption>
+        </figure>
+    </div>
     <h2>Zombo Army: How my zombies do their zombo things!</h2>
     <p>Wilhelt, The Rotcleaver is the commander of this deck. He makes it so that every zombie that dies under my control turns into a decayed zombie (basically a worse zombie).
          This deck is a Zombie tribal deck, which means that almost all of the cards in this deck are zombies, or relate to and buff zombies. The colors of this deck are Dimir, 
          which means Black and Blue, which black focuses on death and bringing back things from the dead, and blue focuses on control and drawing cards.</p>
-    
-    <div class="img2">
-        <figure>
-            <img src="../images/dbaron.jpg" class="card" alt="collection">
-            <figcaption>Death Baron</figcaption>
-        </figure>
-        <p>Death Baron makes all my creatures bigger and gives them deathtouch (any amount of damage they deal is enough to kill other creatures). </p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/gary.jpg" class="card" alt="collection">
-            <figcaption>Gray Merchant of Asphodel</figcaption>
-        </figure>
-        <p>Gray Merchant of Asphodel, more commonly known as Gary, he is able to whittle down opponents quickly by dealing damage equal to how many black pips
-            (color pips are on the top right of a card) you have on the battlefield. 
-        </p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/dcolossus.jpg" class="card" alt="collection">
-            <figcaption>Diregraf Colossus</figcaption>
-        </figure>
-        <p>Diregraf Colossus grows bigger every time you make a zombie and also gives you an extra zombie for your troubles.</p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/rstorm.jpg" class="card" alt="collection">
-            <figcaption>Rooftop Storm</figcaption>
-        </figure>
-        <p>Rooftop Storm is a powerful card that lets me cast my zombies for free. Free zombies are great in this economy!</p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/adamned.jpg" class="card" alt="collection">
-            <figcaption>Army of the Damned</figcaption>
-        </figure>
-        <p>Army of the damned: When you cast it, you get 13 zombies! While they won't be available to you immediately, if they can survive until your next turn, 
-            you'll be able to attack for a lot of damage.</p>
+    <div class="container-fluid" id="card-seq">
+        <div class="img2">
+            <figure>
+                <img src="../images/dbaron.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#baron">
+                    Open Card Description
+                </button>
+                <figcaption>Death Baron</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="baron">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Death Baron</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/dbaron.jpg" class="card" alt="collection">
+                <p>Death Baron makes all my creatures bigger and gives them deathtouch (any amount of damage they deal is enough to kill other creatures). </p>
+            </div>
+        </div>
+        
+        <div class="img2">
+            <figure>
+                <img src="../images/gary.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#gary">
+                    Open Card Description
+                </button>
+                <figcaption>Gray Merchant of Asphodel</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="gary">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Gray Merchant of Asphodel</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/gary.jpg" class="card" alt="collection">
+                <p>Gray Merchant of Asphodel, more commonly known as Gary, he is able to whittle down opponents quickly by dealing damage equal to how many black pips
+                    (color pips are on the top right of a card) you have on the battlefield.</p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/dcolossus.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#baron">
+                    Open Card Description
+                </button>
+                <figcaption>Diregraf Colossus</figcaption>
+            </figure>
+            <p>Diregraf Colossus grows bigger every time you make a zombie and also gives you an extra zombie for your troubles.</p>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="colossus">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Gray Merchant of Asphodel</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/gary.jpg" class="card" alt="collection">
+                <p>Gray Merchant of Asphodel, more commonly known as Gary, he is able to whittle down opponents quickly by dealing damage equal to how many black pips
+                    (color pips are on the top right of a card) you have on the battlefield.</p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/rstorm.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#baron">
+                    Open Card Description
+                </button>
+                <figcaption>Rooftop Storm</figcaption>
+            </figure>
+            <p>Rooftop Storm is a powerful card that lets me cast my zombies for free. Free zombies are great in this economy!</p>
+        </div>
+        <div class="img2">
+            <figure>
+                <img src="../images/adamned.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#baron">
+                    Open Card Description
+                </button>
+                <figcaption>Army of the Damned</figcaption>
+            </figure>
+            <p>Army of the damned: When you cast it, you get 13 zombies! While they won't be available to you immediately, if they can survive until your next turn, 
+                you'll be able to attack for a lot of damage.</p>
+        </div>
     </div>
     <footer>
         <p>Author: Alex F.</p>

@@ -38,43 +38,97 @@
             <a class="nav-link" href="ninja.html">Satoru Umezawa</a>
         </li>
     </nav>
-    <h1>My Collection</h1>
-    <h2>My Magic: The Gathering collection: My favorite cards and some cool stuff</h2>
-    <figure>
-        <img src="../images/arceusbinder.jpg" id="binder" alt="Arceus Binder">
-        <figcaption>Arceus Binder</figcaption>
-    </figure>
-    <p>To start off, I have a binder of my most valuable cards, but ironically it's in a Pokemon binder. The face of the binder has Arceus on it, but at least it looks cool.</p>
-    <h2>My Favorite Card:</h2>
-    <figure>
-        <img src="../images/sneaky2.jpg" class="card" alt="Sneaky Snacker">
-        <figcaption>Sneaky Snacker</figcaption>
-    </figure>
-    <h2>And some of my favorite card arts:</h2>
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>And some of my favorite card arts:</h2>
+            
+            <div class="img2">
+                <div class="figstyle">
+                    <figure>
+                        <img src="../images/foundry.jpg" class="card" alt="collection">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#foundry">
+                            Open Card Description
+                        </button>
+                        <figcaption>Sacred Foundry</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" id="foundry">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Sacred Foundry</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body custom4">
+                    <img src="../images/foundry.jpg" class="card" alt="collection">
+                    <p>I really like they made the moon of the planet "shattered", it really makes it a noteworthy card art.</p>
+                </div>
+            </div>
+
+            <div class="img2">
+                <div class="figstyle">
+                    <figure>
+                        <img src="../images/ptower.jpg" class="card" alt="collection">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#tower">
+                            Open Card Description
+                        </button>
+                        <figcaption>Phyrexian Tower</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" id="tower">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Phyrexian Tower</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body custom4">
+                    <img src="../images/ptower.jpg" class="card" alt="collection">
+                    <p>It's a cool looking tower! Seems very ominous and mysterious. Also has some significance to the Magic lore so that's cool.</p>
+                </div>
+            </div>
+
+            <div class="img2">
+                <div class="figstyle">
+                    <figure>
+                        <img src="../images/arcanesig.jpg" class="card" alt="collection">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#signet">
+                            Open Card Description
+                        </button>
+                        <figcaption>Arcane Signet</figcaption>
+                    </figure>
+                </div>
+                <div class="offcanvas offcanvas-start" id="signet">
+                    <div class="offcanvas-header">
+                        <h1 class="offcanvas-title">Arcane Signet</h1>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body custom4">
+                        <img src="../images/arcanesig.jpg" class="card" alt="collection">
+                        <p>I really like everything about this card. I promise it looks much better in person, the image doesn't portray the gray on the card well. The flowy strands around the gauntlet with the sort of rainbow effect it has makes it awesome!</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="col-sm-9">
+            <h1>My Collection</h1>
+            <div class="figstyle">
+                <h2>My Magic: The Gathering collection: My favorite cards and some cool stuff</h2>
+                <figure>
+                    <img src="../images/arceusbinder.jpg" id="binder" alt="Arceus Binder">
+                    <figcaption>Arceus Binder</figcaption>
+                </figure>
+            </div>
+            <p>To start off, I have a binder of my most valuable cards, but ironically it's in a Pokemon binder. The face of the binder has Arceus on it, but at least it looks cool.</p>
+            <div class="figstyle">
+                <h2>My Favorite Card:</h2>
+                <figure>
+                    <img src="../images/sneaky2.jpg" class="card" alt="Sneaky Snacker">
+                    <figcaption>Sneaky Snacker</figcaption>
+                </figure>
+            </div>
+        </div>
     
-    <div class="img2">
-        <figure>
-            <img src="../images/foundry.jpg" class="card" alt="collection">
-            <figcaption>Sacred Foundry</figcaption>
-        </figure>
-        <p>I really like they made the moon of the planet "shattered", it really makes it a noteworthy card art.</p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/ptower.jpg" class="card" alt="collection">
-            <figcaption>Phyrexian Tower</figcaption>
-        </figure>
-        <p>It's a cool looking tower! Seems very ominous and mysterious. Also has some significance to the Magic lore so that's cool.</p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/arcanesig.jpg" class="card" alt="collection">
-            <figcaption>Arcane Signet</figcaption>
-        </figure>
-        <p>I really like everything about this card. I promise it looks much better in person, the image doesn't portray the gray
-            on the card well. The flowy strands around the gauntlet with the sort of rainbow effect it has makes it awesome!
-        </p>
-    </div>
     
     <footer>
         <p>Author: Alex F.</p>
