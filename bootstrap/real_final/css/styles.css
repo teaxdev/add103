@@ -30,13 +30,33 @@ p {
 }
 
 .card {
-    width: 300px;
+    width: 75%;
+    max-width: 350px;
     background-color: var(--gold);
     padding: 3px;
     border-radius: 50px;
 }
 
-#griffo {
+.card-display {
+    width: 35%;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: var(--gold);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.card-display2 {
+    width: 55%;
+    min-width: 200px;
+    background-color: var(--gold);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#logo {
+    width: 55%;
+    min-width: 200px;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--gold);
@@ -160,3 +180,75 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a {
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #card-seq {
+        display:block;
+    }
+  }

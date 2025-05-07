@@ -39,57 +39,134 @@
             <a class="nav-link active" href="#">Satoru Umezawa</a>
         </li>
     </nav>
-    <h1>Oops, everyone is a ninja</h1>
-    <h2>Satoru's Ninjas</h2>
-    <figure>
-        <img src="../images/satoru2.jpg" class="card" alt="collection">
-        <figcaption>Satoru Umezawa</figcaption>
-    </figure>
-    <p>Everyone’s a Ninja now: How a silly ninja guy makes everyone a Ninja!
+
+    <div class="figstyle">
+        <div class="container-fluid">
+            <h1>Oops, everyone is a ninja</h1>
+            <h2>Satoru's Ninjas</h2>
+            <figure>
+                <img src="../images/satoru2.jpg" class="card" alt="collection">
+                <figcaption>Satoru Umezawa</figcaption>
+            </figure>
+        </div>
+        <h2>Honorary Ninja Army!</h2>
+    </div>
+    <p>Everyone's a Ninja now: How a silly ninja guy makes everyone a Ninja!
         Satoru Umezawa is an interesting commander that gives all of your creature cards in your hand Ninjutsu. What is ninjutsu you may ask? 
         An epic ninja ability that lets you substitute an attacking creature for one in your hand, which basically means trickery. You can basically switch a little guy for a massive guy that will deal a lot of damage! His colors are Dimir, which is black and blue.
         </p>
-    
-    <div class="img2">
-        <figure>
-            <img src="../images/bident.jpg" class="card" alt="collection">
-            <figcaption>Bident of Thassa</figcaption>
-        </figure>
-        <p>Bident of Thassa: Lets you draw a card whenever you deal damage to an opponent, and it can also force them to attack, which leaves them open for your honorary ninjas to go in and smack people.</p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/sheoldred.jpg" class="card" alt="collection">
-            <figcaption>Sheoldred, Whispering One</figcaption>
-        </figure>
-        <p>Sheoldred, Whispering One: Another powerful creature that allows you to bring back creatures from your graveyard, and forces opponents to sacrifice their creatures.
-        </p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/nezahal.jpg" class="card" alt="collection">
-            <figcaption>Nezahal, Primal Tide</figcaption>
-        </figure>
-        <p>Nezahal, Primal Tide: A big creature that lets you leech off your opponents and draw lots of cards. He lets you keep all of your cards as long as he's in play,
-             and he can protect himself if you're willing to sacrifice some of your cards.
-        </p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/jinny.jpg" class="card" alt="collection">
-            <figcaption>Jin-Gitaxias, Core Augur</figcaption>
-        </figure>
-        <p>Jin-Gitaxias, Core Augur: Another big dude that will get you tons of cards, and makes your opponents lose their own cards.
-        </p>
-    </div>
-    <div class="img2">
-        <figure>
-            <img src="../images/yuriko.jpg" class="card" alt="collection">
-            <figcaption>Yuriko, The Tiger's Shadow</figcaption>
-        </figure>
-        <p>Yuriko, The Tiger's Shadow: Not so much a big creature, but a scary threat that lets you draw a card and deal damage equal to its mana value. With the high mana values of our other honorary Ninjas, she can deal lots of damage to opponents.
-        </p>
-    </div>
+    <div class="continer-fluid" id="card-seq">
+        <div class="img2">
+            <figure>
+                <img src="../images/bident.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#thassa">
+                    Open Card Description
+                </button>
+                <figcaption>Bident of Thassa</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="thassa">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Bident of Thassa</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/bident.jpg" class="card" alt="collection">
+                <p>Bident of Thassa: Lets you draw a card whenever you deal damage to an opponent, and it can also force them to attack, which leaves them open for your honorary ninjas to go in and smack people.</p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/sheoldred.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#one">
+                    Open Card Description
+                </button>
+                <figcaption>Sheoldred, Whispering One</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="one">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Sheoldred, Whispering One</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/sheoldred.jpg" class="card" alt="collection">
+                <p>Sheoldred, Whispering One: Another powerful creature that allows you to bring back creatures from your graveyard, and forces opponents to sacrifice their creatures.
+                </p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/nezahal.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#tide">
+                    Open Card Description
+                </button>
+                <figcaption>Nezahal, Primal Tide</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="tide">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Nezahal, Primal Tide</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/nezahal.jpg" class="card" alt="collection">
+                <p>Nezahal, Primal Tide: A big creature that lets you leech off your opponents and draw lots of cards. He lets you keep all of your cards as long as he's in play,
+                    and he can protect himself if you're willing to sacrifice some of your cards.
+                </p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/jinny.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#augur">
+                    Open Card Description
+                </button>
+                <figcaption>Jin-Gitaxias, Core Augur</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="augur">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Jin-Gitaxias, Core Augur</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/jinny.jpg" class="card" alt="collection">
+                <p>Jin-Gitaxias, Core Augur: Another big dude that will get you tons of cards, and makes your opponents lose their own cards.
+                </p>
+            </div>
+        </div>
+
+        <div class="img2">
+            <figure>
+                <img src="../images/yuriko.jpg" class="card" alt="collection">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#shadow">
+                    Open Card Description
+                </button>
+                <figcaption>Yuriko, The Tiger's Shadow</figcaption>
+            </figure>
+        </div>
+
+        <div class="offcanvas offcanvas-start" id="shadow">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Yuriko, The Tiger's Shadow</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body custom4">
+                <img src="../images/yuriko.jpg" class="card" alt="collection">
+                <p>Yuriko, The Tiger's Shadow: Not so much a big creature, but a scary threat that lets you draw a card and deal damage equal to its mana value. With the high mana values of our other honorary Ninjas, she can deal lots of damage to opponents.
+                </p>
+            </div>
+        </div>
+
+    </div>    
     <footer>
         <p>Author: Alex F.</p>
         <p><a href="mailto:aflores206@students.mchenry.edu">aflores206@students.mchenry.edu</a></p>
